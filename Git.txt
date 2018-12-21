@@ -1,0 +1,68 @@
+C:\Users\Huser\Desktop\gitworks\myrepo\sdet-dec2018>git push orgin master
+fatal: 'orgin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Huser\Desktop\gitworks\myrepo\sdet-dec2018>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\Huser\Desktop\gitworks\myrepo\sdet-dec2018>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\Huser\Desktop\gitworks\myrepo\sdet-dec2018>
+C:\Users\Huser\Desktop\gitworks\myrepo\sdet-dec2018>
+C:\Users\Huser\Desktop\gitworks\myrepo\sdet-dec2018>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Huser\Desktop\gitworks\myrepo\sdet-dec2018>
+C:\Users\Huser\Desktop\gitworks\myrepo\sdet-dec2018>
+C:\Users\Huser\Desktop\gitworks\myrepo\sdet-dec2018>dir
+ Volume in drive C is Windows
+ Volume Serial Number is C2EC-4A37
+
+ Directory of C:\Users\Huser\Desktop\gitworks\myrepo\sdet-dec2018
+
+12/06/2018  10:42 AM    <DIR>          .
+12/06/2018  10:42 AM    <DIR>          ..
+12/06/2018  10:42 AM                 8 sampel1.txt.txt
+12/06/2018  10:21 AM                 9 sample.txt
+               2 File(s)             17 bytes
+               2 Dir(s)  442,379,116,544 bytes free
+
+C:\Users\Huser\Desktop\gitworks\myrepo\sdet-dec2018>git origin -v
+git: 'origin' is not a git command. See 'git --help'.
+
+C:\Users\Huser\Desktop\gitworks\myrepo\sdet-dec2018>git -v
+unknown option: -v
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+C:\Users\Huser\Desktop\gitworks\myrepo\sdet-dec2018>git remote -v
+origin  https://github.com/talasilasuresh/sdet-dec2018.git (fetch)
+origin  https://github.com/talasilasuresh/sdet-dec2018.git (push)
+
+C:\Users\Huser\Desktop\gitworks\myrepo\sdet-dec2018>git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 278 bytes | 69.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/talasilasuresh/sdet-dec2018.git
+   c14f6e3..5b3c277  master -> master
+
+C:\Users\Huser\Desktop\gitworks\myrepo\sdet-dec2018>

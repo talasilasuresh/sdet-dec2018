@@ -1,0 +1,9 @@
+Setting up Selenium HUB & Node
+
+This is to setup a HUB:
+java -jar selenium-server-standalone-3.141.59.jar -role hub
+
+
+This is to setup a NODE:
+
+java -Dwebdriver.chrome.driver=C:\121718\workspace\17_21\chromedriver.exe -Dwebdriver.ie.driver=C:\121718\workspace\17_21\IEDriverServer64.exe -Dwebdriver.gecko.driver=C:\121718\workspace\17_21\geckodriver.exe  -jar selenium-server-standalone-3.141.59.jar -role node -hub http://localhost:4444/grid/register -port 5555 -browser browserName=chrome,maxInstances=5,platform=WIN10 -browser browserName="internet explorer",maxInstances=3,platform=WIN10 -browser browserName=firefox,maxInstances=4,platform=WIN10 -browser browserName=safari,maxInstances=2,platform=WIN10
